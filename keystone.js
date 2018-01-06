@@ -27,13 +27,12 @@ keystone.init({
 		helpers: new require('./templates/views/helpers')(),
 		extname: '.hbs',
 	}).engine,
-
+	
 	'auto update': true,
 	'session': true,
 	'auth': true,
 	'user model': 'User',
 	'cookie secret': process.env.COOKIE_SECRET,
-	//'mongo': 'mongodb://baloghroland:nagyontitkos@52.59.195.10:27017/szemi_db?ssl=true',
 });
 
 // Load your project's Models
@@ -59,7 +58,4 @@ keystone.set('nav', {
 });
 
 // Start Keystone to connect to your database and initialise the web server
-
-
-
 keystone.start();
