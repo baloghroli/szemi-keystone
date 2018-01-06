@@ -9,6 +9,19 @@ exports = module.exports = function (req, res) {
 	// item in the header navigation.
 	locals.section = 'stats';
 
+	// Load courses
+	view.query('ako', keystone.list('Statistic').model.find({
+		mutato: 'ÁKÓ',
+	}));
+
+	view.query('vsm', keystone.list('Statistic').model.find({
+		mutato: 'VSM',
+	}));
+
+	view.query('kk', keystone.list('Statistic').model.find({
+		mutato: 'KK',
+	}));
+
 	// Render the view
 	view.render('stats');
 };
