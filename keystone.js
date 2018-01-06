@@ -32,6 +32,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+	'cookie secret': 'O7UgBnnvx2P4Xql2QhjMK62iGAaeAEKz',
 	//'mongo': 'mongodb://baloghroland:nagyontitkos@52.59.195.10:27017/szemi_db?ssl=true',
 });
 
