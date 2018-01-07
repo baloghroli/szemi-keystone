@@ -11,12 +11,12 @@ var handlebars = require('express-handlebars');
 // and documentation.
 
 keystone.init({
-	'name': 'szemi',
-	'brand': 'szemi',
+	'name': 'Szemi Autós - Motoros Iskola',
+	'brand': 'Szemi Autós - Motoros Iskola',
 
 	'sass': 'public',
 	'static': 'public',
-	'favicon': 'public/favicon.ico',
+	'favicon': 'public/szemenyei_bela.ico',
 	'views': 'templates/views',
 	'view engine': '.hbs',
 
