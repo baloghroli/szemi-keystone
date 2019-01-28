@@ -670,6 +670,10 @@ td {
 	background-image: url('/images/a1_kategoria.jpg');
 }
 
+.pricing-am::after {
+	background-image: url('/images/am_kategoria.jpg');
+}
+
 .pricing-b::after {
 	background-image: url('/images/szemi-autosiskola3.jpg');
 }

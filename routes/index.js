@@ -36,13 +36,14 @@ exports = module.exports = function (app) {
 	// Views
 	app.get('/', routes.views.index);
 	app.get('/a1-arak', routes.views.a1_prices);
+	app.get('/a2-arak', routes.views.a2_prices);
+	app.get('/am-arak', routes.views.am_prices);
 	app.get('/a-arak', routes.views.a_prices);
 	app.get('/b-arak', routes.views.b_prices);
 	app.get('/be-arak', routes.views.be_prices);
 	app.get('/c-arak', routes.views.c_prices);
 	app.get('/ce-arak', routes.views.ce_prices);
 	app.get('/d-arak', routes.views.d_prices);
-	app.get('/araink', routes.views.prices);
 	app.get('/statisztika', routes.views.stats);
 	app.get('/tajekoztato', routes.views.info);
 
