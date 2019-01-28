@@ -46,6 +46,7 @@ exports = module.exports = function (app) {
 	app.get('/d-arak', routes.views.d_prices);
 	app.get('/statisztika', routes.views.stats);
 	app.get('/tajekoztato', routes.views.info);
+	app.get('/adatvedelem', routes.views.data_privacy);
 
 	// NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
 	// app.get('/protected', middleware.requireUser, routes.views.protected);
