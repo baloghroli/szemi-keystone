@@ -816,6 +816,7 @@ td {
 .team-img img {
     margin: auto;
     width: 350px;
+    height: 350px;
     border: 10px solid #fff;
     outline: 5px solid #8BC34A;
 }
