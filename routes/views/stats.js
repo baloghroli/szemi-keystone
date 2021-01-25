@@ -12,15 +12,15 @@ exports = module.exports = function (req, res) {
 	// Load courses
 	view.query('ako', keystone.list('Statistic').model.find({
 		mutato: 'ÁKÓ',
-	}));
+	}).sort('tipus'));
 
 	view.query('vsm', keystone.list('Statistic').model.find({
 		mutato: 'VSM',
-	}));
+	}).sort('tipus'));
 
 	view.query('kk', keystone.list('Statistic').model.find({
 		mutato: 'KK',
-	}));
+	}).sort('tipus'));
 
 	// Render the view
 	view.render('stats');
