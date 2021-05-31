@@ -822,6 +822,12 @@ td {
     object-fit: cover;
 }
 
+.team-img.black-border img {
+    outline: 5px solid #000;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 .team .team-content {
     text-align: center;
     position: relative;
